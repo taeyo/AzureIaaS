@@ -1,8 +1,10 @@
 # 고 가용성을 위해서 검토해야 할 사항들
 
-이 글은 다음 링크의 글을 편역 및 재정리한 문서입니다.
+이 글은 다음 링크의 글을 편역 및 재정리한 문서입니다. Azure 클라우드 기반으로 IaaS를 설계하실 경우에 미리 점검해 보면 좋을만한 내용들을 언급하고 있습니다. 이를 반영하여 아키텍처를 구성하면 안정적이고 고가용성을 확보한 시스템을 구축하실 수 있을 것입니다.
 
-> [High availability checklist](https://azure.microsoft.com/en-us/documentation/articles/resiliency-high-availability-checklist/)
+> 참고 문서 : [High availability checklist](https://azure.microsoft.com/en-us/documentation/articles/resiliency-high-availability-checklist/)
+
+---
 
 ## 트래픽 관리자를 고려해 보세요. 단, 두 군데 이상의 지역에서 서비스를 운영한다면 말이죠.
 
