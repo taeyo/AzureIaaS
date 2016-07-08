@@ -4,6 +4,9 @@
 
 > 참고 문서 : [High availability checklist](https://azure.microsoft.com/en-us/documentation/articles/resiliency-high-availability-checklist/)
 
+샘플 아키텍처 예시
+
+![샘플 아키텍처 예시]()
 ---
 
 ## 트래픽 관리자를 고려해 보세요. 단, 두 군데 이상의 지역에서 서비스를 운영한다면 말이죠.
