@@ -71,6 +71,17 @@
 
 [Azure 구독 및 서비스 제한, 할당량 및 제약 조건](https://azure.microsoft.com/ko-kr/documentation/articles/azure-subscription-service-limits/#virtual-machine-disk-limits)
 
+---
+
+## 데이터베이스 앞단에는 가급적 캐시(Azure Redis Cache)를 사용하세요
+
+(업데이트 될 예정입니다)
+
+---
+
+## 정적 파일들에 대해 CDN을 사용하세요
+
+(업데이트 될 예정입니다)
 
 ---
 
