@@ -87,7 +87,19 @@ Azure Redis Cache에 대해 자세히 알아보려면 [캐싱 지침](https://az
 
 ## 정적 파일들에 대해 CDN을 사용하세요
 
-(업데이트 될 예정입니다)
+CDN을 사용하면 전세계에 있는 CDN POP/에지 위치에 정적인 콘텐츠들을 캐시하여 제공함으로써 웹 서버의 로드를 줄이는 데 큰 도움이 됩니다. CDN을 사용하면 지연 시간도 줄일 수 있고, 확장성도 높일 수 있으며, 서버의 부하도 줄일 수 있습니다. 더불어, 서비스 거부(DOS) 공격에 대한 대비의 일환으로 일부 활용할 수도 있습니다. 게다가, CDN 사용 비용은 일반 정적 콘텐츠를 CDN 없이 제공하는 것과 비교하여 데이터 송신 비용에 차이가 거의 없기 때문에 빈번하게 사용되는 정적 컨텐츠에 대해서는 적극적으로 사용하는 것을 권장합니다(물론, CDN Pop과 Azure Storage 사이에 캐시를 위한 트래픽이 정기적으로 발생하고 이 부분에서 추가적인 비용이 과금하긴 하지만 적절하게 필요한 데이터만을 캐시한다면 CDN을 사용하는 것은 가격 대비 매우 효율적인 방안입니다). 정확한 차이는 다음 링크를 통해서 대략적으로 산정해 볼 수 있습니다.
+
+Azure CDN 비용    
+[https://azure.microsoft.com/en-us/pricing/details/cdn](https://azure.microsoft.com/en-us/pricing/details/cdn/)  
+
+기본 데이터 전송 비용(아웃바운드)     
+[https://azure.microsoft.com/en-us/pricing/details/data-transfers](https://azure.microsoft.com/en-us/pricing/details/data-transfers/)
+
+Azure CDN을 사용하여 복원력을 확보하고, 지연 시간을 줄여서 사용자들에게 빠르고 쾌적한 경험을 제공하고 싶다면 [Azure CDN(콘텐츠 배달 네트워크) 개요](https://azure.microsoft.com/ko-kr/documentation/articles/cdn-overview/)를 참조해 보세요.
+
+### CDN을 사용하지 않으면 어떻게 되나요? 
+
+CDN을 사용하지 않으면, 모든 고객의 트래픽이 여러분의 웹 서버로 직접 오게 됩니다. 이렇게 되면 웹 서버의 로드가 높아지고 응답성은 떨어지게 되기에, 제대로 된 서비스를 하기 위해서는 더 높은 사양의 웹 서버가 필요하게 될 수 있습니다. 또한, (심지어 웹 서버의 성능을 높인다 하더라도) 물리적으로 먼 거리에서 접근하는 고객들은 상당히 느린 응답을 받을 수 밖에 없을 것이기에 고객 만족도도 떨어지게 됩니다. 빈번하게 고객이 접근하게 되는 이미지나 동영상, 파일들은 CDN을 활용하여 서비스하는 것이 더 나은 비즈니스 기회를 만드는 데 도움이 됩니다.
 
 ---
 
