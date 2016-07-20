@@ -1,7 +1,7 @@
 # VM을 마켓플레이스에 올리기 전에 점검해야 할 사항들
 
-고객사의 솔루션이 탑재된 VM을 Azure 마켓플레이스에 등록하려면, 우선 적절한 과정을 거쳐서 VM을 만들고 이미지화 해야할 뿐만 아니라
-Azure에 구성해 둔 VM이 올바로 구성되었는 지를 검증하기 위해서 테스트 도구를 사용하여 검사를 수행해야 한다.
+대외 판매용으로 자사의 솔루션이 탑재된 VM을 Azure 마켓플레이스에 등록하려면, 우선 적절한 과정을 거쳐서 VM을 만들고 이미지화 해야할 뿐만 아니라
+Azure에 구성해 둔 VM이 올바로 구성되었는 지를 검증하기 위해서 테스트 도구를 사용하여 검사를 수행해야 한다. 테스트 도구는 다음 경로에서 다운로드 할 수 있다.
 
 [Certification Test Tool for Azure Certified](https://www.microsoft.com/en-us/download/details.aspx?id=44299&wa=wsignin1.0)
 
