@@ -35,4 +35,33 @@ Azure에 구성해 둔 VM이 올바로 구성되었는 지를 검증하기 위�
 > 23. The application offer can be deployed in any Azure datacenter worldwide.  
      
 
-## Linux 서버의 사전 조건 (추가 준비 중)
+## Linux 서버의 사전 조건
+
+> 1. The application described in the Publisher Portal does match the application included in the Virtual Machine and was tested for primary functionality after deployment of the VM image in Microsoft Azure.
+> 2. The application does not include third party software. If it does, publisher is in compliance with its redistribution licensing.
+> 3. The VM image size is an exact multiple of 1 MB.
+> 4. The VHD image is deprovisioned.
+> 5. All the latest security patches for the Linux distribution are installed including recent major threats test warning.
+> 6. All the latest guidelines to secure the VM image for the specific Linux distribution have been followed.
+> 7. The VHD image only includes necessary locked accounts, that do not have default password that would allow interactive login, no back door.
+> 8. Firewall rules are disabled or, firewall rules are not disabled because the application functionality relies on them, such as a firewall appliance.
+> 9. The application's minimum requirement for number of virtual cores can be met by Azure Virtual Machines options.
+> 10. The application's minimum requirement for RAM can be met by Azure Virtual Machines options.
+> 11. The application's networking requirements of high bandwidth are documented as appropriate, if needed.
+> 12. The application does not require a DHCP server enabled in the Virtual Machine. Dynamic Host Configuration Protocol Server is not a supported Server Role in Azure Virtual Machine. 
+> 13. The application does not have dependency on software not included in the virtual machine. If it does, proper information should be available for customer to complete the deployment.
+> 14. The virtual machine application works well in a dynamic IP address environment. If a static address is required, special configuration instructions are to be provided to customers.
+> 15. Azure virtual machines may have different Input/Output Operations per Second (IOPS) capabilities than on-premises implementations and can vary with VM size and number of disks.The application is tested thoroughly to perform well in an Azure VM.
+> 16. The Application Deployment Guide includes recommendations for deployment in high availability and Disaster recovery scenarios.
+> 17. Application does not have dependency on /dev/sdb1 drive for persistent data. Azure offers /dev/sdb1 drive as temporary storage only and data could be lost.
+> 18. The application does not require SSD based drives. Azure Virtual machines currently does not offer VM with Solid State Drives (SSD).
+> 19. The application offer uptime SLA is in accordance with Azure VM service SLA. Azure offers SLA of 99.95% that can be met with High Availability deployment options such as grouping virtual machines in an Availability Set.
+> 20. The application requires only one Network Interface Controller (NIC) and one IP address. Azure Virtual machines currently support only one Network Controller Card (NIC) and one IP address per NIC.
+> 21. Application does not require Multicast or Broadcast networking protocols.Azure Virtual machines currently does not support Multicast or Broadcast protocols.
+> 22. The application offer can be deployed in any Azure datacenter worldwide.
+> 23. The application offer can be deployed in an environment where network throttling is enabled.
+> 24. While additional configuration tasks may be required by the application, its deployment allows VM to fully provision and start OS.
+> 25. Select true if you are enabling SSH for your end users with recommended ClientAliveInterval value (30-235) (or) SSH is not used for your end user scenarios.
+> 26. LVM is not used on OS Disk. It is recommended to utilize standard partitions rather than LVM on OS Disk to avoid LVM name conflicts with cloned VMs.
+> 27. Application does not have dependency on IPV6. IPV6 is not yet supported, it would be supported in near future.
+    
