@@ -7,7 +7,8 @@
 1. Azure VM을 만들고 Windows 서버 설치
 2. [Add Role]에서 Web Server 및 FTP 서버 설치
     - 참고 문서 : [Installing a Secure FTP Server on Windows using IIS](https://winscp.net/eng/docs/guide_windows_ftps_server)
-    - ![iis_install_win2012](https://github.com/taeyo/AzureIaaS/blob/master/images/iis_install_win2012.png)
+    
+    ![iis_install_win2012](https://github.com/taeyo/AzureIaaS/blob/master/images/iis_install_win2012.png)
 3. Azure VM의 NSG에 inbound Ruls 추가 (FTP, 21 포트 개방)
 4. Azure VM의 NSG에 inbound Ruls 추가 (FTP 데이터 포트로 사용할 포트들 개방) 
     - 참고 : [VM의 NSG에 규칙 추가 스크립트(ps)](https://github.com/taeyo/TaeyoAzurePowerShell/blob/master/VM%EC%9D%98%20NSG%EC%97%90%20%EA%B7%9C%EC%B9%99%20%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0.ps1)
