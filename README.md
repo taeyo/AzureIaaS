@@ -20,7 +20,7 @@
 3. Azure VM의 NSG에 inbound Ruls 추가 (FTP, 21 포트 개방)
 4. Azure VM의 NSG에 inbound Ruls 추가 (FTP 데이터 포트로 사용할 포트들 개방) 
     - 참고 : [VM의 NSG에 규칙 추가 스크립트(ps)](https://github.com/taeyo/TaeyoAzurePowerShell/blob/master/VM%EC%9D%98%20NSG%EC%97%90%20%EA%B7%9C%EC%B9%99%20%EC%B6%94%EA%B0%80%ED%95%98%EA%B8%B0.ps1)
-5. RDP로 서버 VM에서 접속하고, Install-FTP.bat 파일을 실행하여 다음의 작업들을 한번에 수행
+5. RDP로 서버 VM에서 접속하고, [Install-FTP.bat](https://github.com/taeyo/AzureIaaS/blob/master/FTP/Install-FTP.bat) 파일을 실행하여 다음의 작업들을 한번에 수행
     - 이 bat 파일을 사용하지 않는다면 다음의 작업을 수동으로 직접 해주어야 한다.
         - FTP 사이트를 새롭게 생성하고, 
         - 필요한 데이터 포트들을 개방하고, 
