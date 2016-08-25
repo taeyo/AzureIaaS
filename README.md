@@ -41,6 +41,15 @@
         - DynamicPortLast : 데이터 포트로 사용할 포트(끝포트)
         - PublicIP : 현재 서버의 공용 IP 주소
     - 실행 예시 : Install-FTP.bat FtpSvr1 jw1storage1ftp oX+rwzY== files 21 10000 10020 138.91.26.53
+6. 인터넷 서비스 관리자(inetmgr)을 실행해서 FTP 설정들을 확인
+    - 데이터 포트와 IP 설정 확인
+
+    ![ftp-set1](https://github.com/taeyo/AzureIaaS/blob/master/images/ftp-set1.png)
+
+    - Azure File과의 매핑이 잘 되어 있는지 확인  
+
+    ![ftp-set2](https://github.com/taeyo/AzureIaaS/blob/master/images/ftp-set2.png)
+
 6. FTP Client([WinSCP](https://winscp.net/eng/docs/lang:ko) 등)으로 접근.
     
 - 참고 문서
