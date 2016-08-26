@@ -1,15 +1,15 @@
-# Azure IaaS 설계 시에 참고할만한 사항들
-
-## [고 가용성을 위해서 검토해야 할 사항들](/HighAvailibity/)
-## [VM을 마켓플레이스에 올리기 전에 점검해야 할 사항들](/Marketplace/)
-
 ## Azure VM을 FTP 서버로 활용하고 Azure File에 파일 저장하는 방법
+
 장점 : 
 - 여러 대의 FTP 서버를 운영하면서 단일 위치를 공용 저장소로 활용할 수 있다.
 - 각 FTP 서버마다 데이터 디스크를 보유할 필요가 없다.
 
 단점 : 
 - Azure File은 저장소 계정 당 최대 5 TB 까지만 지원한다. 
+
+구성 예
+
+![Ftp-Arch](https://github.com/taeyo/AzureIaaS/blob/master/images/ftp-arch.png)
 
 구성 순서   
 
