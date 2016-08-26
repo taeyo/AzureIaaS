@@ -51,10 +51,18 @@
     ![ftp-set2](https://github.com/taeyo/AzureIaaS/blob/master/images/ftp-set2.png)
 
 6. FTP Client([WinSCP](https://winscp.net/eng/docs/lang:ko) 등)으로 접근.
-    
-- 참고 문서
-    - [Deploying a load-balanced, high-available FTP Server with Azure Files](http://fabriccontroller.net/deploying-a-load-balanced-high-available-ftp-server-with-azure-files/)  
-    - [Installing Secure FTP Server on Microsoft Azure using IIS](https://winscp.net/eng/docs/guide_azure_ftps_server)    
-    - [Step-By-Step: Creating a File Share in Azure](https://blogs.technet.microsoft.com/canitpro/2014/09/22/step-by-step-creating-a-file-share-in-azure/)    
+
+### Tip
+
+2대 이상의 VM으로 FTP 서버들의 부하분산을 구성하려는 경우에는 Passive FTP의 상태로는 이를 부하 분산시키면서 올바르게 동작시킬 명확한 해법이 없기 때문에, 일종의 편법으로 반드시 데이터 포트 범위를 각기 달리 줘야 한다.
+
+예 >
+> ftpSvr1: port 21, port range 10000-10020  
+> ftpSvr2: port 21, port range 20000-20020
+
+### 참고 문서
+- [Deploying a load-balanced, high-available FTP Server with Azure Files](http://fabriccontroller.net/deploying-a-load-balanced-high-available-ftp-server-with-azure-files/)  
+- [Installing Secure FTP Server on Microsoft Azure using IIS](https://winscp.net/eng/docs/guide_azure_ftps_server)    
+- [Step-By-Step: Creating a File Share in Azure](https://blogs.technet.microsoft.com/canitpro/2014/09/22/step-by-step-creating-a-file-share-in-azure/)    
 
 
