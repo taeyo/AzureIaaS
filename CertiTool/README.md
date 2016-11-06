@@ -32,3 +32,5 @@ Certification 대상인 원격 VM과 Azure 포탈, 그리고 테스트를 수행
 2. 로컬 PC(Certification Test Tool을 실행할 PC)에서 PowerShell 콘솔을 열고 다음 명령을 실행
 ```Enter-PSSession -ComputerName <대상 원격 VM의 FQDN> -Port 5986 -Credential <계정명> -UseSSL```
 3. 연결이 성공하면 모든 준비는 끝났다. 이제 Certification Test Tool을 실행
+
+![AzureCertiTool01](AzureCertiTool01)
