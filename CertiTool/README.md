@@ -23,7 +23,8 @@ Certification 대상인 원격 VM과 Azure 포탈, 그리고 테스트를 수행
     ![images/AzureCertiTool02.png](images/AzureCertiTool02.png)
 - ARM(신규 VM)인 경우
     1. [ConfigureWinRM.zip](ConfigureWinRM.zip)을 다운로드 받아서 원격 VM의 특정 폴더(예, C:\temp)에 복사한다
-    2. VM에서 PowerShell 콘솔로 폴더에 접근하여 ConfigureWinRM.ps1를 실행하면서 원격 서버의 FQDN을 인자로 지정한다.
+    2. VM에서 PowerShell 콘솔을 실행한다.
+    2. 해당 폴더(C:\Temp)로 이동하여 다음과 같이 ConfigureWinRM.ps1를 실행하면서 원격 서버의 FQDN을 인자로 지정한다.
 	예 :     
     ``` .\ConfigureWinRM.ps1 taeyositevm.southeastasia.cloudapp.azure.com```
     3. Azure Portal에서 해당 VM의 네트워크 보안 그룹에서 인바운드 보안 규칙으로 5986 포트를 개방한다
