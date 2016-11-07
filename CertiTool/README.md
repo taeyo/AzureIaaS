@@ -1,12 +1,6 @@
 # Certification Test Tool 사용을 위한 설정
 
-기업들이 자사의 솔루션을 Azure MarketPlace에 등록하고자 한다면 우선 해당 솔루션을 Azure VM 등에 설치한 뒤 올바로 동작하는 지를 사전에 점검해야 한다.- 
-
-그리고, 만들어진 VM이 다양한 기본적인 조건들을 만족하는 지도 검사해야 하는데, 이러한 검사 목록은 다음 링크에서 확인할 수 있다.
-
-[VM을 마켓플레이스에 올리기 전에 점검해야 할 사항들](https://github.com/taeyo/AzureIaaS/tree/master/Marketplace)
-
-사실, 이 검사 목록은 아래에서 언급할 Certification Test Tool에서 요구하는 검사 목록이기도 하다.
+기업들이 자사의 솔루션을 Azure MarketPlace에 등록하고자 한다면 우선 해당 솔루션을 Azure VM 등에 설치한 뒤 올바로 동작하는 지를 사전에 점검해야 한다.
 
 올바로 동작하는 지를 검증한 뒤에는 Microsoft에서 제공하는 Certification Test Tool을 사용해서 원격 VM이 등록 자격 조건에 부합한 지를 테스트해야 하는데, 테스트를 수행하기 위해서는
 자사의 솔루션이 설치된 원격 VM에 Remote PowerShell 설정과 방화벽 등의 설정이 켜져 있어야 한다.
@@ -41,4 +35,11 @@ Certification 대상인 원격 VM과 Azure 포탈, 그리고 테스트를 수행
 3. 연결이 성공하면 모든 준비는 끝났다. 이제 Certification Test Tool을 실행
 
 ![AzureCertiTool01](AzureCertiTool01)
+
+
+마켓플레이스에 등록이 가능한 VM은 템플릿으로써 갖춰야 할 다양한 기본적인 조건들도 만족시켜야 하는데, 이러한 검사 목록은 다음 링크에서 확인할 수 있다.
+
+[VM을 마켓플레이스에 올리기 전에 점검해야 할 사항들](https://github.com/taeyo/AzureIaaS/tree/master/Marketplace)
+
+사실, 이 검사 목록은 위에서 언급한 Certification Test Tool에서 요구하는 검사 목록이기도 하다.
 
