@@ -39,6 +39,8 @@ Certification 대상인 원격 VM과 Azure 포탈, 그리고 테스트를 수행
 ## Certification Test Tool을 실행할 로컬 PC(혹은 VM)에서의 설정
 1. Certification Test Tool을 실행할 PC에서 Chrome으로 해당 URI를 5986 포트로 접근해서 임시 인증서를 확인한 다음, 로컬에 다운로드 후 설치한다(설치 시에는 반드시 Current User > Trusted Root Certification Authorities에 설치)   
     예 : https://taeyositevm.southeastasia.cloudapp.azure.com:5986
+    ![images/AzureCertiTool05.png](images/AzureCertiTool05.png)
+    ![images/AzureCertiTool06.png](images/AzureCertiTool06.png)
 2. 로컬 PC(Certification Test Tool을 실행할 PC)에서 PowerShell 콘솔을 열고 다음 명령을 실행 
     ~~~
     Enter-PSSession -ComputerName <대상 원격 VM의 FQDN> -Port 5986 -Credential <계정명> -UseSSL
