@@ -5,6 +5,10 @@ Azure에 구성해 둔 VM이 올바로 구성되었는 지를 검증하기 위�
 
 [Certification Test Tool for Azure Certified](https://www.microsoft.com/en-us/download/details.aspx?id=44299&wa=wsignin1.0)
 
+테스트 도구를 설치한 뒤에는 테스트 대상 VM과 테스트를 수행할 PC에 약간의 설정이 필요한데 이에 대한 내용은 별도의 문서에 정리해 두었으니 다음 링크를 참고하도록 하자.
+
+[Certification Test Tool 사용을 위한 설정](https://github.com/taeyo/AzureIaaS/tree/master/CertiTool)
+
 테스트 도구는 중간 점검 중에 다음과 같은 부분을 준수했는지 물어오는데 모든 부분에 Yes를 선택하지 않으면 검사를 통과할 수 없다.
 그러므로, 하단의 내용은 반드시 사전에 점검해 두어야 하는 필수 조건이라 할 수 있다.
 
