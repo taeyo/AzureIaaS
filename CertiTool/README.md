@@ -5,6 +5,10 @@
 올바로 동작하는 지를 검증한 뒤에는 Microsoft에서 제공하는 Certification Test Tool을 사용해서 원격 VM이 등록 자격 조건에 부합한 지를 테스트해야 하는데, 테스트를 수행하기 위해서는
 자사의 솔루션이 설치된 원격 VM에 Remote PowerShell 설정과 방화벽 등의 설정이 켜져 있어야 한다.
 
+테스트 도구는 다음 경로에서 다운로드 할 수 있다.
+
+[Certification Test Tool for Azure Certified](https://www.microsoft.com/en-us/download/details.aspx?id=44299&wa=wsignin1.0)
+
 ASM(기존 포탈) 기반으로 구성된 VM 즉, 클래식 VM의 경우는 상대적으로 설정이 쉽지만, ARM(신규 포탈) 기반으로 구성된 VM의 경우는 그 설정이 약간 복잡하다.
 
 해서, 다음의 컬럼들을 참고하여 이를 쉽게 설정할 수 있는 과정을 정리해 보았다.
