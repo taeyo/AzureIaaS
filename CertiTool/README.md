@@ -4,7 +4,7 @@
 
 그리고, 만들어진 VM이 다양한 기본적인 조건들을 만족하는 지도 검사해야 하는데, 이러한 검사 목록은 다음 링크에서 확인할 수 있다.
 
-[https://github.com/taeyo/AzureIaaS/tree/master/Marketplace](VM을 마켓플레이스에 올리기 전에 점검해야 할 사항들)
+[VM을 마켓플레이스에 올리기 전에 점검해야 할 사항들](https://github.com/taeyo/AzureIaaS/tree/master/Marketplace)
 
 사실, 이 검사 목록은 아래에서 언급할 Certification Test Tool에서 요구하는 검사 목록이기도 하다.
 
