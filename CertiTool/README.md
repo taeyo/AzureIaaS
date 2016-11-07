@@ -20,6 +20,7 @@ Certification 대상인 원격 VM과 Azure 포탈, 그리고 테스트를 수행
 ## Certification 검증 대상인 원격 VM에서의 설정
 - ASM(클래식 VM)인 경우
     1. 포탈에서 끝점으로 5986 포트를 개방해 준다.
+    ![images/AzureCertiTool02.png](AzureCertiTool02)
 - ARM(신규 VM)인 경우
     1. [ConfigureWinRM.zip](ConfigureWinRM.zip)을 다운로드 받아서 원격 VM의 특정 폴더(예, C:\temp)에 복사한다
     2. VM에서 PowerShell 콘솔로 폴더에 접근하여 ConfigureWinRM.ps1를 실행하면서 원격 서버의 FQDN을 인자로 지정한다.
@@ -34,7 +35,7 @@ Certification 대상인 원격 VM과 Azure 포탈, 그리고 테스트를 수행
 ```Enter-PSSession -ComputerName <대상 원격 VM의 FQDN> -Port 5986 -Credential <계정명> -UseSSL```
 3. 연결이 성공하면 모든 준비는 끝났다. 이제 Certification Test Tool을 실행
 
-![AzureCertiTool01](AzureCertiTool01)
+![images/AzureCertiTool01.png](AzureCertiTool01)
 
 
 마켓플레이스에 등록이 가능한 VM은 템플릿으로써 갖춰야 할 다양한 기본적인 조건들도 만족시켜야 하는데, 이러한 검사 목록은 다음 링크에서 확인할 수 있다.
