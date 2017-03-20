@@ -25,14 +25,14 @@ Azure의 신뢰높은 안정성과 확장성을 다양한 ISV 고객들에게 �
 전체 문서는 PDF로도 공개되어 있기에 https://docs.com/taeyokim/1345/azure-iaas-hol 에서 별도로 다운로드도 가능합니다만, 이 곳을 통해서도 쉽게 살펴볼 수 있도록 추가적으로 정리하여 공유하고자 합니다.
 문서의 순서는 다음과 같습니다.
 
-1.  [Azure IaaS 기본 권장 아키텍처 실습 개요 및 준비](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/1.md)
-2.	리소스 그룹 생성
-3.	가상 네트워크와 서브넷
-4.	가용성 집합(Availability Set)
-5.	저장소 계정(Storage Account) 
-6.	가상 컴퓨터(VM)
-7.	외부 부하분산 집합
-8.	내부 부하분산 집합 
-9.	네트워크 보안 그룹(NSG, Network Security Group)
-10.	공용 IP 주소 (및 고정 IP)
-11. 부록(IIS 웹 서버 설치 및 기본 홈페이지 구성)
+0.  [Azure IaaS 기본 권장 아키텍처 실습 개요 및 준비](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/0.md)
+1.	[리소스 그룹 생성](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/1.md)
+2.	가상 네트워크와 서브넷
+3.	가용성 집합(Availability Set)
+4.	저장소 계정(Storage Account) 
+5.	가상 컴퓨터(VM)
+6.	외부 부하분산 집합
+7.	내부 부하분산 집합 
+8.	네트워크 보안 그룹(NSG, Network Security Group)
+9.	공용 IP 주소 (및 고정 IP)
+10. 부록(IIS 웹 서버 설치 및 기본 홈페이지 구성)
