@@ -25,7 +25,7 @@ Azure의 신뢰높은 안정성과 확장성을 다양한 ISV 고객들에게 �
 전체 문서는 PDF로도 공개되어 있기에 https://docs.com/taeyokim/1345/azure-iaas-hol 에서 별도로 다운로드도 가능합니다만, 이 곳을 통해서도 쉽게 살펴볼 수 있도록 추가적으로 정리하여 공유하고자 합니다.
 문서의 순서는 다음과 같습니다.
 
-1.  [https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/1.md](Azure IaaS 기본 권장 아키텍처 실습 개요 및 준비)
+1.  [Azure IaaS 기본 권장 아키텍처 실습 개요 및 준비](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/1.md)
 2.	리소스 그룹 생성
 3.	가상 네트워크와 서브넷
 4.	가용성 집합(Availability Set)
