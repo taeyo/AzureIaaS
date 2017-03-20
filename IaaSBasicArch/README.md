@@ -27,7 +27,7 @@ Azure의 신뢰높은 안정성과 확장성을 다양한 ISV 고객들에게 �
 
 0.  [Azure IaaS 기본 권장 아키텍처 실습 개요 및 준비](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/0.md)
 1.	[리소스 그룹 생성](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/1.md)
-2.	가상 네트워크와 서브넷
+2.	[가상 네트워크와 서브넷](https://github.com/taeyo/AzureIaaS/blob/master/IaaSBasicArch/2.md)
 3.	가용성 집합(Availability Set)
 4.	저장소 계정(Storage Account) 
 5.	가상 컴퓨터(VM)
